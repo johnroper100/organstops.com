@@ -1,0 +1,333 @@
+{
+    "names": [
+        {
+            "name": "Prestant",
+            "origin": "Dutch",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Principaal",
+            "origin": "Dutch",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Principal",
+            "origin": "English",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Principale",
+            "origin": "Italian",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Prinzipal",
+            "origin": "German",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Diapason",
+            "origin": "English",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Open Diapason",
+            "origin": "English",
+            "link": "",
+            "primary": true
+        },
+        {
+            "name": "Montre",
+            "origin": "French",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Flautado",
+            "origin": "Spanish",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Flautado Principal",
+            "origin": "Spanish",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Devanture",
+            "origin": "French",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Dulceon",
+            "origin": "Czech",
+            "link": "Dulceon",
+            "primary": false
+        },
+        {
+            "name": "Frontispicium",
+            "origin": "Latin",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Fundamentalis",
+            "origin": "Latin?",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Jeu en Montre",
+            "origin": "French",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Monster",
+            "origin": "French",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Mostra",
+            "origin": "French",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Parade",
+            "origin": "French?",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Tenori",
+            "origin": "Italian",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Regula",
+            "origin": "Latin",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Primaria Regula",
+            "origin": "Latin",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Regula Primaria",
+            "origin": "Latin",
+            "link": "",
+            "primary": false
+        }
+    ],
+    "images": [
+        {
+            "file": "Diapason.gif",
+            "subtitle": ""
+        }
+    ],
+    "description": "The quintessential tone of the pipe organ.",
+    "construction": "Open cylindrical metal, or open rectangular wood. The illustration is Audsley's.",
+    "comparisons": [
+        {
+            "name": "Flautada",
+            "link": "Flautada"
+        }
+    ],
+    "variants": [
+        {
+            "name": "Cello Diapason",
+            "link": "Cello Diapason"
+        },
+        {
+            "name": "Diapason Magna",
+            "link": "Diapason Magna"
+        },
+        {
+            "name": "Diapason Phononn",
+            "link": "Diapason Phonon"
+        },
+        {
+            "name": "Diapason Sonora",
+            "link": "Diapason Sonora"
+        },
+        {
+            "name": "Diaphonic Diapason",
+            "link": "Diaphone"
+        },
+        {
+            "name": "Diskant Prinzipal",
+            "link": "Diskant Prinzipal"
+        },
+        {
+            "name": "Double Diapason",
+            "link": "Contra Principal"
+        },
+        {
+            "name": "Early English Diapason",
+            "link": "Early English Diapason"
+        },
+        {
+            "name": "English Diapason",
+            "link": "English Diapason"
+        },
+        {
+            "name": "Fifteenth",
+            "link": "Fifteenth"
+        },
+        {
+            "name": "Groben Principal",
+            "link": "Groben Principal"
+        },
+        {
+            "name": "Italian Principal",
+            "link": "Italian Principal"
+        },
+        {
+            "name": "Magnaton",
+            "link": "Magnaton"
+        },
+        {
+            "name": "Major Principal",
+            "link": "Major Principal"
+        },
+        {
+            "name": "Octave",
+            "link": "Octave"
+        },
+        {
+            "name": "Prinzipalbass",
+            "link": "Prinzipalbass"
+        },
+        {
+            "name": "Prinzipaldiskant",
+            "link": "Diskant Prinzipal"
+        },
+        {
+            "name": "Quint Diapason",
+            "link": "Quint Diapason"
+        },
+        {
+            "name": "Salicional Diapason",
+            "link": "Salicional Diapason"
+        },
+        {
+            "name": "Sch&ouml;nprinzipal",
+            "link": "Sch&ouml;nprinzipal"
+        },
+        {
+            "name": "Small Open Diapason",
+            "link": "Early English Diapason"
+        },
+        {
+            "name": "Solo Diapason",
+            "link": "Solo Diapason"
+        },
+        {
+            "name": "Solo Prinzipal-Fl&ouml;te",
+            "link": "Solo Prinzipal Fl&ouml;te"
+        },
+        {
+            "name": "Unterchormassbass",
+            "link": "Unterchormassbass"
+        },
+        {
+            "name": "Wood Diapason",
+            "link": "Holzprinzipal"
+        }
+    ],
+    "examples": [],
+    "examplesDescription": "Every pipe organ worthy of the name contains at least one. No examples are known of the names Devanture, Frontispicium, Fundamentalis, Jeu en Montre, Monster, Mostra, Parade, Tenori, Regula, Primaria Regula, or Regula Primaria.",
+    "soundClips": [
+        {
+            "divisionName": "Manual Diapasons",
+            "clips": [
+                {
+                    "name": "Principal 8', Hauptwerk",
+                    "organName": "Reinhardtsgrimma",
+                    "organLocation": "Sachsen, Germany",
+                    "organBuilderName": "Silbermann",
+                    "organBuiltYear": "1731",
+                    "organLink": "Reinhardtsgrimma",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "Reinhardtsgrimma/Hw_Principal8_arp.mp3"
+                        },
+                        {
+                            "name": "St. Anne",
+                            "file": "Reinhardtsgrimma/Hw_Principal8_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Montre 8', Grand Orgue",
+                    "organName": "St. Bernhard's Church",
+                    "organLocation": "Mainz, Germany",
+                    "organBuilderName": "Cavaill&eacute;-Coll",
+                    "organBuiltYear": "1872-1892",
+                    "organLink": "CavColMainz",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "CavColMainz/GO_Montre_arp.mp3"
+                        },
+                        {
+                            "name": "St. Anne",
+                            "file": "CavColMainz/GO_Montre_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Open Diapason Small 8', Great",
+                    "organName": "St. Anne's Church",
+                    "organLocation": "Moseley, Birmingham, England",
+                    "organBuilderName": "Lewis",
+                    "organBuiltYear": "1875",
+                    "organLink": "StAnnesMoseley",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "StAnnesMoseley/Gt_OpenDiapSmall8_arp.mp3"
+                        },
+                        {
+                            "name": "St. Anne",
+                            "file": "StAnnesMoseley/Gt_OpenDiapSmall8_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Open Diapason Large 8', Great",
+                    "organName": "St. Anne's Church",
+                    "organLocation": "Moseley, Birmingham, England",
+                    "organBuilderName": "Brindley & Foster",
+                    "organBuiltYear": "1907",
+                    "organLink": "StAnnesMoseley",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "StAnnesMoseley/Gt_OpenDiapLarge8_arp.mp3"
+                        },
+                        {
+                            "name": "St. Anne",
+                            "file": "StAnnesMoseley/Gt_OpenDiapLarge8_stan.mp3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

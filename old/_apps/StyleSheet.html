@@ -1,0 +1,225 @@
+<html>
+<head>
+<!-- Every entry begins with these 6 lines. !-->
+<title>Encyclopedia of Organ Stops</title>
+<link rel=StyleSheet href="../Entry.css" type="text/css">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!--APPENDIX-->
+</head>
+<body>
+
+<table width=100%cellpadding=0 cellspacing=0><tr valign=top>
+<td><h1>Style Sheet</h1>
+<td align=right><a href="../index.html" target="_top">Home</a>
+</table>
+<p>
+This page contains the style sheet for this encyclopedia.
+</p>
+<hr>
+<table width=100%><tr><td>
+<font size=+3><b>Name1 </b></font> Language1<br>
+<font size=+3><b>Name2 </b></font> Language2 ?<br>
+<font size=+3><b>Name3 </b></font> (unknown)<br>
+</td><td>
+<font size=+3><b>Name4 </b></font> Language1/Language2<br>
+<font size=+3><b>Name5 </b></font> Language1, Language2<br>
+</td></tr><tr><td>
+<font size=+2><b>Name6 </b></font> Language1<br>
+<font size=+2><b>Name7 </b></font> Language2<br>
+</td></tr></table>
+<p>
+Each entry file begins with a list of synonymous stop names.
+Synonymous names share the same entry file; for example
+<i>Cymbal</i> and <i>Zimbel</i> are described
+on the same page, since they are two names for the same stop.
+�Same stop� means that there are no significant differences
+in the pitch, tone or construction implied by the different
+names.
+</p><p>
+If there are more than three entry names, the names are
+arranged in two columns, unless the names are too
+long to permit formatting in two columns.
+If the number of names is odd, the left-hand column contains
+one more entry than the right column.
+All things being equal, the names are arranged in alphabetical
+order, but the order may be modified to improve formatting.
+</p><p>
+The language of origin appears after each name.  If the language
+is suspected but not certain, a question mark follows the language.
+If the name belongs to more than one language, the languages are
+listed separated by commas.  If the name is a combination of
+languages, the languages are separated by forward slashes.
+If the language is totally unknown, �(unknown)� appears in
+place of the language name.
+</p><p>
+The more important or common names are listed first, formatted using 
+the HTML tag <code>&lt;font size=+3&gt;&lt;b&gt;</code>.
+The less important or less common names (if any) are listed second,
+formatted using the HTML tag <code>&lt;font size=+2&gt;&lt;b&gt;</code>.
+The language is in plain text.
+The HTML tag <code>&nbsp;&lt;!--NAMES--&gt;&nbsp;</code>
+must appear immediately before the first name, or immediately before the table
+containing the names.
+</p>
+
+<h2>Information</h2>
+<p>
+Each entry file should contain the following information, if possible:
+</p>
+<ul>
+<li>An English translation of each name, if it is not already English,
+	and an etymology for each name.
+<li>The tonal attributes of the stop.
+<li>How the stop is constructed, including materials, shape, etc.
+<li>A list of stops of similar construction (for interesting construction).
+<li>Scale examples, including any pertinent measurements.
+<li>Composition examples for compound stops (see below).
+<li>A history of the stop.
+<li>Its usage in registration and/or tonal design
+<li>A list of tonal variants (echo, octave, contra, celeste, hybrids, etc.)
+<li>A list of linguistic variants (e.g. Flute, Pfeife, etc.)
+<li>Examples in actual organs (see below).
+<li>Commentary, in which opinion should be clearly distinguished
+	from fact.
+</ul>
+
+<h2>Composition</h2>
+<p>
+Mixtures should have a Composition section containing examples
+of the mixture's composition.
+Each rank in the mixture should be specified using interval
+notation (e.g. �17�) rather than by speaking length (e.g. �1-3/5'�),
+with the exception of non-breaking mixtures (i.e. cornets),
+which may be specified either way.
+Each composition example is formatted in a table so that
+identically pitched ranks line up vertically,
+and the sections of compass are arranged with the higher pitches on top.
+For example:
+</p>
+<table>
+<tr><td><b>Cymbal V</b></td></tr>
+<tr><td>c2 to c4</td><td><td>1</td><td>5</td><td>8</td><td>12</td><td>15</td><td>19</td><td>22</td></tr>
+<tr><td>c1 to b1</td><td><td> </td><td> </td><td>8</td><td>12</td><td>15</td><td>19</td><td>22</td><td>26</td><td>29</td></tr>
+<tr><td>C to B	</td><td><td> </td><td> </td><td> </td><td>12</td><td>15</td><td>19</td><td>22</td><td>26</td><td>29</td><td>33</td></tr>
+<tr><td>CC to BB</td><td><td> </td><td> </td><td> </td><td>  </td><td>15</td><td>19</td><td>22</td><td>26</td><td>29</td><td>33</td><td>36</td></tr>
+</table>
+
+
+<h2>Hyperlinks</h2>
+<p>
+All stop names should be hyperlinked to their entry files,
+with the following exceptions:
+</p>
+<ul>
+<li>A given stop name is a hyperlink only the first time it appears
+	in each paragraph.  Subsequent appearances within a paragraph
+	are not hyperlinks.
+<li>Stop names are not hyperlinks in the main headings at the top
+	of the file.
+<li>Stop names are not hyperlinks in the Bibliography or Examples section.
+</ul>
+
+<h2>Quotations</h2>
+<p>
+If a quotation is less than approximately two lines in length,
+it appears in the running text, enclosed with double quotes.
+For example: �this is an example of a short quotation�.
+If a quotation is more than approximately two lines in length,
+it appears as a separate section using the HTML <code>&lt;blockquote&gt;</code>
+element.  For example:
+</p>
+<blockquote>
+This is an example of a longer quotation that spans more than
+two lines.  In all quotations, the originally typography is
+maintained as much as possible.  The main exception to this rule is
+that stopnames are rendered as hyperlinks, subject to the rules
+for hyperlinks described above.
+</blockquote>
+<p>
+All quotations should be credited in the Bibliography section,
+described below.
+</p>
+
+<h2>Footnotes</h2>
+<p>Don't use them, period.</p>
+
+<h2>Examples</h2>
+<p>
+Every entry file has a section called �Examples�, except where
+examples are cited in quotations and no other examples are known.
+If no examples at all are known, the body of the section should
+read as follows (but not in a blockquote):
+</p>
+<blockquote>
+None known.
+<a href="InfoNeeded.html">Contributions welcome.</a>
+</blockquote>
+<p>
+If examples are known, then up to five examples should be given.
+Each example should be enclosed in the HTML tag 
+<code>&lt;p&nbsp;class=example&gt;</code>, and should have the
+following format:
+</p>
+<blockquote>
+StopName pitch, division; location (church, etc.), city, state/province, country;
+	builder year.
+</blockquote>
+
+<h2>Pictures</h2>
+<p>
+All pictures must be cross-referenced on the main
+<a href="Illustrations.html">Illustrations</a> page.
+Each image file should be rendered at 75 dpi in a size
+reasonable for inclusion on the entry page.  This
+picture is a hyperlink to the same image rendered at 300 dpi.
+All images should be GIF or JPEG format.  GIF is preferred
+for line drawings; JPEG is preferred for photographs.
+</p>
+
+<h2>Bibliography</h2>
+<p>
+The final section of each entry file is a Bibliography.
+Each source is a hyperlink to the master Bibliography page,
+followed by entry names, chapter numbers, or page numbers,
+as appropriate.
+Multiple citations for a single source are separated by
+semicolons.  Each source description ends with a period.
+</p><p>
+If a source is used only for a very few entries, it can
+be listed in full in the entries' bibliographies, rather
+than on the master Bibliography page.
+</p>
+
+<h2>Footer</h2>
+<p>
+Each file ends with a horizontal rule, followed by the HTML tag
+<code>&nbsp;&lt;!--FOOTER--&gt;&nbsp;</code>
+followed by a
+hyperlinked copyright notice, the name of the file,
+the date it was last updated, and links to the
+encyclopedia's home page and full index.
+</p><p>
+If the entry was written by a guest author, it should
+contain a separate copyright notice, appropriate to
+the author, rather than the standard one.
+</p>
+
+<h2>Miscellany</h2>
+<p>
+Files which are neither normal entry files nor appendices must
+contain the HTML tag <code>&nbsp;&lt;!--AUXFILE--&gt;&nbsp;</code>
+somewhere in the file.
+</p>
+<hr>
+<!--FOOTER-->
+<table width=100% cellspacing=0 cellpadding=0><tr valign=top><td>
+<font size=-1><a href="Copyright.html">
+Original site compiled by Edward L. Stauff. For educational use only.</a><br>
+StyleSheet.html - 
+Last updated 26 January 2002.
+</font></td><td align=right>
+<a href="../index.html" target="_top">Home</a><br>
+<a href="../FullIndex.html" target="_top">Full Index</a><br>
+</td></tr></table>
+</body>
+</html>

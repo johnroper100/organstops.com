@@ -1,0 +1,32 @@
+/* cascading style sheet for an entry file */
+
+/* normal paragraphs (descriptions, etc.) */
+P	{ text-indent: 1em }
+
+/* for quotations of 2 lines or more */
+/* BLOCKQUOTE	{ margin-left: 2em; margin-right: 2em } */
+
+/* for examples (each example is its own paragraph */
+P.example	{ margin-left: 2em; text-indent: -2em; margin-top: 0; margin-bottom: 0 }
+
+/* for the "not finished yet" notes */
+/*
+P.NotDone	{ margin-left: 8em; margin-right: 8em; font-weight: bold; 
+				border: solid; text-indent: 0; text-align: center }
+*/
+P.NotDone	{ margin-left: 15%; margin-right: 15%; font-weight: bold; 
+				border: solid; text-indent: 0; text-align: center }
+
+/* for sponsor images */
+A.Sponsor { color: white }  /* KLUDGE: prevent link border from showing */
+IMG.Sponsor { border-width: 0; border-style: none; border: 0 }
+P.Sponsor { text-indent: 0 }
+
+/* for sound samples */
+TABLE.samples	{ margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;
+				  padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0 }
+TR.samples		{ margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;
+				  padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0 }
+TD.samples		{ border-width: thin; border-style: solid;
+				  margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;
+				  padding-left: 0.5em; padding-right: 0.5em; padding-top: 0; padding-bottom: 0 }

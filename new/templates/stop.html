@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Encyclopedia of Organ Stops - {{name}}</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            {% for row in names | batch(((names|length)/3)|round(method='ceil')) %}
+            <div class="col-md-4 col-12">
+                {% for name in row %}
+                <h4>
+                    {% if name.link != "" %}<a
+                        href="../{{getLetter(name.link)}}/{{getNameURL(name.link)}}.html">{% endif %}
+                        {{name.name}}
+                        {% if name.link != "" %}</a>{% endif %}
+                    <small class="text-muted">{{name.origin}} {% if name.primary %}(Primary){% endif %}</small>
+                </h4>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+
+        {% if description != "" or comparisons|length > 0 %}
+        <hr>
+        <h3>Description:</h3>
+        <div class="row">
+            <div class="col-12">
+                {% if description != "" %}<p>{{description}}</p>{% endif %}
+                {% if comparisons|length > 0 %}
+                <p>
+                    Compare with:
+                    {% for c in comparisons %}
+                    <a href="../{{getLetter(c.link)}}/{{getNameURL(c.link)}}.html">{{c.name}}</a>
+                    {% endfor %}
+                </p>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if images|length > 0 %}
+        <div class="row">
+            {% for image in images %}
+            <div class="col-md-3">
+                <img class="img-thumbnail" style="height: 25rem; width: auto; display: block;"
+                    src="../images/{{letter}}/{{image.file}}">
+                {% if image.subtitle != "" %}
+                {{image.subtitle}}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if construction != "" %}
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h3>Construction:</h3>
+                <p>{{construction}}</p>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if variants|length > 0 %}
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h3>Variants:</h3>
+            </div>
+            {% for row in variants | batch(((variants|length)/4)|round(method='ceil')) %}
+            <div class="col-md-3 col-12">
+                {% for variant in row %}
+                <a href="../{{getLetter(variant.link)}}/{{getNameURL(variant.link)}}.html"
+                    style="display:block;">{{variant.name}}</a>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if examples|length > 0 or examplesDescription != "" %}
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h3>Examples:</h3>
+                {% if examplesDescription != "" %}
+                <p>{{examplesDescription}}</p>
+                {% endif %}
+            </div>
+            {% for row in examples | batch(((examples|length)/4)|round(method='ceil')) %}
+            <div class="col-md-3 col-12">
+                {% for example in row %}
+                <a href="../{{getLetter(example.link)}}/{{getNameURL(example.link)}}.html">{{example.name}}</a>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if soundClips|length > 0 %}
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h3>Sound Clips:</h3>
+                {% for division in soundClips %}
+                <h4>{{division.divisionName}} -</h4>
+                {% for clip in division.clips %}
+                <div class="mb-3">
+                    {{clip.name}}
+                    <br>
+                    {{clip.organName}}, {{clip.organLocation}}
+                    <br>
+                    {{clip.organBuilderName}}, {{clip.organBuiltYear}}
+                    <div class="row">
+                        {% for file in clip.files %}
+                        <div class="col-md-4">
+                            <div class="card mt-2">
+                                <div class="card-body">
+                                    <h5>{{file.name}}:</h5>
+                                    <audio controls style="display: block;">
+                                        <source src="../audio/{{file.file}}">
+                                        Your browser does not support HTML5 audio, please consider upgrading.
+                                    </audio>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+                <hr>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
