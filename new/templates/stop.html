@@ -38,10 +38,26 @@
             margin: 0;
             min-height: 100%;
         }
+
+        #edit_banner {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 1rem;
+            z-index: 10;
+            padding: 10px 10px 10px 10px;
+            color: #fff;
+            background: #007bff no-repeat 95% 50%;
+            font-weight: 700;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
     </style>
 </head>
 
 <body>
+    <a id="edit_banner" href="https://github.com/johnroper100/organstops.com/edit/master/new/definitions/{{getLetter(name)}}/{{getNameURL(name)}}.json" target="_blank">Edit Page</a>
     <div class="container">
         <div class="row">
             {% for row in names | batch(((names|length)/3)|round(method='ceil')) %}
