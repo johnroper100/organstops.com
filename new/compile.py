@@ -30,6 +30,7 @@ for subdir, dirs, files in os.walk("definitions"):
     for file in files:
         with open(os.path.join(subdir, file)) as definition:
             data = json.load(definition)
+            names.extend(data['names'])
             name = next(item for item in data['names'] if item['primary'] == True)[
                 'name']
             
@@ -38,5 +39,5 @@ for subdir, dirs, files in os.walk("definitions"):
             if not os.path.exists(os.path.join("build",letter)):
                 os.makedirs(os.path.join("build",letter))
             f = open(os.path.join("build",letter, nameURL+".html"), "w")
-            f.write(template.render(data, name=name, letter=letter, nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter))
+            f.write(stopTemplate.render(data, name=name, letter=letter, nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter))
             f.close()
