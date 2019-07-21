@@ -57,7 +57,9 @@
 </head>
 
 <body>
-    <a id="edit_banner" href="https://github.com/johnroper100/organstops.com/edit/master/new/definitions/{{getLetter(name)}}/{{getNameURL(name)}}.json" target="_blank">Edit Page</a>
+    <a id="edit_banner"
+        href="https://github.com/johnroper100/organstops.com/edit/master/new/definitions/{{getLetter(name)}}/{{getNameURL(name)}}.json"
+        target="_blank">Edit Page</a>
     <div class="container">
         <div class="row">
             {% for row in names | batch(((names|length)/3)|round(method='ceil')) %}
