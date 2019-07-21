@@ -40,11 +40,18 @@ for subdir, dirs, files in os.walk("definitions"):
 
             for nameItem in data['names']:
                 newName = copy.deepcopy(nameItem)
-                if newName['link'] == "":
+                if newName['link'] != "":
+                    if newName not in names:
+                        names.append(newName)
+                        newNewName = copy.deepcopy(newName)
+                        newNewName['name'] = newNewName['name'] + " ("+name+")"
+                        newNewName['link'] = name
+                        if newNewName not in names:
+                            names.append(newNewName)
+                else:
                     newName['link'] = name
-                if newName in names:
-                    newName['name'] = newName['name'] + " ("+name+")"
-                names.append(newName)
+                    if newName not in names:
+                        names.append(newName)
 
             nameURL = getNameURL(name)
             letter = getLetter(name)

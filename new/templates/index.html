@@ -42,8 +42,8 @@
             </div>
         </div>
         <div class="row mt-4">
-            {% for row in names | batch(((names|length)/6)|round(method='ceil')) %}
-            <div class="col-md-2 col-12">
+            {% for row in names | batch(((names|length)/4)|round(method='ceil')) %}
+            <div class="col-md-3 col-12">
                 {% for name in row %}
                 <a href="./{{getLetter(name.link)}}/{{getNameURL(name.link)}}.html">{{name.name}}</a>
                 <br>
