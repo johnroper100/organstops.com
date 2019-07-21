@@ -1,5 +1,6 @@
-from html.parser import HTMLParser
 import os
+from html.parser import HTMLParser
+
 
 class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
@@ -11,6 +12,7 @@ class MyHTMLParser(HTMLParser):
 
     def handle_data(self, data):
         print("Encountered some data  :", data)
+
 
 parser = MyHTMLParser()
 

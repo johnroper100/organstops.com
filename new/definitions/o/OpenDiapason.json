@@ -253,29 +253,11 @@
     "examplesDescription": "Every pipe organ worthy of the name contains at least one. No examples are known of the names Devanture, Frontispicium, Fundamentalis, Jeu en Montre, Monster, Mostra, Parade, Tenori, Regula, Primaria Regula, or Regula Primaria.",
     "soundClips": [
         {
-            "divisionName": "Manual Diapasons",
+            "divisionName": "Manual",
             "clips": [
                 {
-                    "name": "Principal 8', Hauptwerk",
-                    "organName": "Reinhardtsgrimma",
-                    "organLocation": "Sachsen, Germany",
-                    "organBuilderName": "Silbermann",
-                    "organBuiltYear": "1731",
-                    "organLink": "Reinhardtsgrimma",
-                    "files": [
-                        {
-                            "name": "Arpeggio",
-                            "file": "Reinhardtsgrimma/Hw_Principal8_arp.mp3"
-                        },
-                        {
-                            "name": "St. Anne",
-                            "file": "Reinhardtsgrimma/Hw_Principal8_stan.mp3"
-                        }
-                    ]
-                },
-                {
                     "name": "Montre 8', Grand Orgue",
-                    "organName": "St. Bernhard's Church",
+                    "organName": "St. Bernhard",
                     "organLocation": "Mainz, Germany",
                     "organBuilderName": "Cavaill&eacute;-Coll",
                     "organBuiltYear": "1872-1892",
@@ -283,29 +265,117 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "CavColMainz/GO_Montre_arp.mp3"
+                            "file": "GO_Montre_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "CavColMainz/GO_Montre_stan.mp3"
+                            "file": "GO_Montre_stan.mp3"
                         }
                     ]
                 },
                 {
-                    "name": "Open Diapason Small 8', Great",
-                    "organName": "St. Anne's Church",
-                    "organLocation": "Moseley, Birmingham, England",
-                    "organBuilderName": "Lewis",
-                    "organBuiltYear": "1875",
-                    "organLink": "StAnnesMoseley",
+                    "name": "Principal 8', Great",
+                    "organName": "First Baptist Church",
+                    "organLocation": "Riverside, California, USA",
+                    "organBuilderName": "Schantz",
+                    "organBuiltYear": "1966",
+                    "organLink": "FirstBaptistRiverside",
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "StAnnesMoseley/Gt_OpenDiapSmall8_arp.mp3"
+                            "file": "Gt_Principal8_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "StAnnesMoseley/Gt_OpenDiapSmall8_stan.mp3"
+                            "file": "Gt_Principal8_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Prinzipal 8', Hauptwerk",
+                    "organName": "Grace Lutheran Church",
+                    "organLocation": "Champaign, Illinois, USA",
+                    "organBuilderName": "Casavant Fr&egrave;res",
+                    "organBuiltYear": "1975",
+                    "organLink": "GraceLutheranChampaign",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "Hw_Prinzipal8_arp.mp3"
+                        },
+                        {
+                            "name": "St. Anne",
+                            "file": "Hw_Prinzipal8_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Diapason 16', Great",
+                    "organName": "Kellogg Auditorium",
+                    "organLocation": "Battle Creek, Michigan, USA",
+                    "organBuilderName": "Aeolian-Skinner",
+                    "organBuiltYear": "1933",
+                    "organLink": "KelloggAuditorium",
+                    "files": [
+                        {
+                            "name": "St. Anne (8va)",
+                            "file": "Gt_Diapason16_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "First Diapason 8', Great",
+                    "organName": "Kellogg Auditorium",
+                    "organLocation": "Battle Creek, Michigan, USA",
+                    "organBuilderName": "Aeolian-Skinner",
+                    "organBuiltYear": "1933",
+                    "organLink": "KelloggAuditorium",
+                    "files": [
+                        {
+                            "name": "St. Anne",
+                            "file": "Gt_Diapason1_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Second Diapason 8', Great",
+                    "organName": "Kellogg Auditorium",
+                    "organLocation": "Battle Creek, Michigan, USA",
+                    "organBuilderName": "Aeolian-Skinner",
+                    "organBuiltYear": "1933",
+                    "organLink": "KelloggAuditorium",
+                    "files": [
+                        {
+                            "name": "St. Anne",
+                            "file": "Gt_Diapason2_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Third Diapason 8', Great",
+                    "organName": "Kellogg Auditorium",
+                    "organLocation": "Battle Creek, Michigan, USA",
+                    "organBuilderName": "Aeolian-Skinner",
+                    "organBuiltYear": "1933",
+                    "organLink": "KelloggAuditorium",
+                    "files": [
+                        {
+                            "name": "St. Anne",
+                            "file": "Gt_Diapason3_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Diapason 8', Swell",
+                    "organName": "Kellogg Auditorium",
+                    "organLocation": "Battle Creek, Michigan, USA",
+                    "organBuilderName": "Aeolian-Skinner",
+                    "organBuiltYear": "1933",
+                    "organLink": "KelloggAuditorium",
+                    "files": [
+                        {
+                            "name": "St. Anne",
+                            "file": "Sw_Diapason_stan.mp3"
                         }
                     ]
                 },
@@ -319,11 +389,76 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "StAnnesMoseley/Gt_OpenDiapLarge8_arp.mp3"
+                            "file": "Gt_OpenDiapLarge8_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "StAnnesMoseley/Gt_OpenDiapLarge8_stan.mp3"
+                            "file": "Gt_OpenDiapLarge8_stan.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Open Diapason Small 8', Great",
+                    "organName": "St. Anne's Church",
+                    "organLocation": "Moseley, Birmingham, England",
+                    "organBuilderName": "Brindley & Foster",
+                    "organBuiltYear": "1907",
+                    "organLink": "StAnnesMoseley",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "Gt_OpenDiapSmall8_arp.mp3"
+                        },
+                        {
+                            "name": "St. Anne",
+                            "file": "Gt_OpenDiapSmall8_stan.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "divisionName": "Pedal",
+            "clips": [
+                {
+                    "name": "Principal 16', Pedal",
+                    "organName": "First Baptist Church",
+                    "organLocation": "Riverside, California, USA",
+                    "organBuilderName": "Schantz",
+                    "organBuiltYear": "1966",
+                    "organLink": "FirstBaptistRiverside",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "Ped_Principal16_arp.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Diapason 16', Pedal",
+                    "organName": "Kellogg Auditorium",
+                    "organLocation": "Battle Creek, Michigan, USA",
+                    "organBuilderName": "Aeolian-Skinner",
+                    "organBuiltYear": "1933",
+                    "organLink": "KelloggAuditorium",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "Ped_Diapason_arp.mp3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Open Diapason 16', Pedal",
+                    "organName": "St. Anne's Church",
+                    "organLocation": "Moseley, Birmingham, England",
+                    "organBuilderName": "Brindley & Foster",
+                    "organBuiltYear": "1907",
+                    "organLink": "StAnnesMoseley",
+                    "files": [
+                        {
+                            "name": "Arpeggio",
+                            "file": "Ped_OpenDiap16_arp.mp3"
                         }
                     ]
                 }

@@ -1,13 +1,18 @@
-from jinja2 import Template
-import os
+import copy
 import json
+import os
 import shutil
+
+from jinja2 import Template
+
 
 def getLetter(name):
     return name[0].lower()
 
+
 def getNameURL(name):
     return name.replace(" ", "_")
+
 
 stopTemplateFile = open(os.path.join("templates", "stop.html"), 'r')
 stopTemplate = Template(stopTemplateFile.read())
@@ -30,14 +35,28 @@ for subdir, dirs, files in os.walk("definitions"):
     for file in files:
         with open(os.path.join(subdir, file)) as definition:
             data = json.load(definition)
-            names.extend(data['names'])
             name = next(item for item in data['names'] if item['primary'] == True)[
                 'name']
-            
+
+            for nameItem in data['names']:
+                newName = copy.deepcopy(nameItem)
+                if newName['link'] == "":
+                    newName['link'] = name
+                if newName in names:
+                    newName['name'] = newName['name'] + " ("+name+")"
+                names.append(newName)
+
             nameURL = getNameURL(name)
             letter = getLetter(name)
-            if not os.path.exists(os.path.join("build",letter)):
-                os.makedirs(os.path.join("build",letter))
-            f = open(os.path.join("build",letter, nameURL+".html"), "w")
-            f.write(stopTemplate.render(data, name=name, letter=letter, nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter))
+            if not os.path.exists(os.path.join("build", letter)):
+                os.makedirs(os.path.join("build", letter))
+            f = open(os.path.join("build", letter, nameURL+".html"), "w")
+            f.write(stopTemplate.render(data, name=name, letter=letter,
+                                        nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter))
             f.close()
+
+names = sorted(names, key=lambda k: k['name'])
+f = open(os.path.join("build", "index.html"), "w")
+f.write(indexTemplate.render(names=names,
+                             getNameURL=getNameURL, getLetter=getLetter))
+f.close()
