@@ -1,0 +1,114 @@
+{
+    "names": [
+        {
+            "name": "Aelodicon",
+            "origin": "Greek",
+            "link": "",
+            "primary": true
+        },
+        {
+            "name": "Aeolodicon",
+            "origin": "Greek",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Alodicon",
+            "origin": "Greek",
+            "link": "",
+            "primary": false
+        }
+    ],
+    "images": [],
+    "description": "A soft-toned free reed stop of 16' pitch. According to Audsley, the name was used for a free-reed keyboard instrument, the precursor to the harmonium.",
+    "construction": "",
+    "comparisons": [
+        {
+            "name": "Aeoline Reed",
+            "link": "Aeoline Reed"
+        }
+    ],
+    "variants": [
+        {
+            "name": "Aeolina",
+            "link": "Aeolina"
+        },
+        {
+            "name": "Aeoline",
+            "link": "Aeoline"
+        },
+        {
+            "name": "Clavaeolina",
+            "link": "Clavaeolina"
+        },
+        {
+            "name": "Clav&auml;oline",
+            "link": "Clav&auml;oline"
+        }
+    ],
+    "bibliography": [
+        {
+            "name": "Audsley",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aelodicon"
+                }
+            ]
+        },
+        {
+            "name": "Audsley",
+            "number": "2",
+            "sections": [
+                {
+                    "number": "I.XIII",
+                    "name": "Aeolodicon"
+                }
+            ]
+        },
+        {
+            "name": "Grove",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aeoline"
+                }
+            ]
+        },
+        {
+            "name": "Irwin",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Trumpet"
+                }
+            ]
+        },
+        {
+            "name": "Locher",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aeolina"
+                }
+            ]
+        },
+        {
+            "name": "Maclean",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aeoline"
+                }
+            ]
+        }
+    ],
+    "examples": [],
+    "examplesDescription": "",
+    "soundClips": []
+}

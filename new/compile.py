@@ -40,6 +40,8 @@ for subdir, dirs, files in os.walk("definitions"):
 
             for nameItem in data['names']:
                 newName = copy.deepcopy(nameItem)
+                del newName['primary']
+                del newName['origin']
                 if newName['link'] != "":
                     if newName not in names:
                         names.append(newName)
@@ -50,6 +52,18 @@ for subdir, dirs, files in os.walk("definitions"):
                             names.append(newNewName)
                 else:
                     newName['link'] = name
+                    if newName not in names:
+                        names.append(newName)
+            
+            for nameItem in data['variants']:
+                newName = copy.deepcopy(nameItem)
+                if newName['link'] != "":
+                    if newName not in names:
+                        names.append(newName)
+            
+            for nameItem in data['comparisons']:
+                newName = copy.deepcopy(nameItem)
+                if newName['link'] != "":
                     if newName not in names:
                         names.append(newName)
 
