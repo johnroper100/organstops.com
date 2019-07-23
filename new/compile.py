@@ -22,6 +22,10 @@ indexTemplateFile = open(os.path.join("templates", "index.html"), 'r')
 indexTemplate = Template(indexTemplateFile.read())
 indexTemplateFile.close()
 
+missingTemplateFile = open(os.path.join("templates", "missing.html"), 'r')
+missingTemplate = Template(missingTemplateFile.read())
+missingTemplateFile.close()
+
 if os.path.exists("build"):
     shutil.rmtree("build")
 
@@ -54,13 +58,13 @@ for subdir, dirs, files in os.walk("definitions"):
                     newName['link'] = name
                     if newName not in names:
                         names.append(newName)
-            
+
             for nameItem in data['variants']:
                 newName = copy.deepcopy(nameItem)
                 if newName['link'] != "":
                     if newName not in names:
                         names.append(newName)
-            
+
             for nameItem in data['comparisons']:
                 newName = copy.deepcopy(nameItem)
                 if newName['link'] != "":
@@ -81,3 +85,13 @@ f = open(os.path.join("build", "index.html"), "w")
 f.write(indexTemplate.render(names=names,
                              getNameURL=getNameURL, getLetter=getLetter))
 f.close()
+
+for name in names:
+    if not os.path.exists(os.path.join("build", getLetter(name['link']), getNameURL(name['link'])+".html")):
+        if not os.path.exists(os.path.join("build", getLetter(name['link']))):
+            os.makedirs(os.path.join("build", getLetter(name['link'])))
+        f = open(os.path.join("build", getLetter(
+            name['link']), getNameURL(name['link'])+".html"), "w")
+        f.write(missingTemplate.render(
+            name=name, getNameURL=getNameURL, getLetter=getLetter))
+        f.close()
