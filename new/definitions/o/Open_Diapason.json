@@ -405,6 +405,242 @@
                     "name": ""
                 }
             ]
+        },
+        {
+            "name": "Grove",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Flautado"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                },
+                {
+                    "number": "",
+                    "name": "Tenori"
+                }
+            ]
+        },
+        {
+            "name": "Hopkins & Rimbault",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "570-571",
+                    "name": ""
+                },
+                {
+                    "number": "573-575",
+                    "name": ""
+                },
+                {
+                    "number": "597",
+                    "name": ""
+                },
+                {
+                    "number": "815",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "name": "Irwin",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                }
+            ]
+        },
+        {
+            "name": "Locher",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Octave"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                }
+            ]
+        },
+        {
+            "name": "Maclean",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                }
+            ]
+        },
+        {
+            "name": "Skinner",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "24-26",
+                    "name": ""
+                },
+                {
+                    "number": "XII",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "XII",
+                    "name": "Principal"
+                }
+            ]
+        },
+        {
+            "name": "Strony",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Open Diapason"
+                }
+            ]
+        },
+        {
+            "name": "Sumner",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Prinzipal"
+                },
+                {
+                    "number": "",
+                    "name": "Regula"
+                }
+            ]
+        },
+        {
+            "name": "Wedgwood",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Bajoncillo"
+                },
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Flautado"
+                },
+                {
+                    "number": "",
+                    "name": "Flautado Principal"
+                },
+                {
+                    "number": "",
+                    "name": "Frontispicium"
+                },
+                {
+                    "number": "",
+                    "name": "Fundamentalis"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Primaria Regula"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                },
+                {
+                    "number": "",
+                    "name": "Regula"
+                }
+            ]
+        },
+        {
+            "name": "Williams",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "Glossary",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "Glossary",
+                    "name": "Flautado"
+                },
+                {
+                    "number": "Glossary",
+                    "name": "Montre"
+                },
+                {
+                    "number": "Glossary",
+                    "name": "Prinzipal"
+                },
+                {
+                    "number": "Glossary",
+                    "name": "Spitzfl&ouml;te"
+                },
+                {
+                    "number": "Glossary",
+                    "name": "Tenori"
+                }
+            ]
         }
     ],
     "examples": [],

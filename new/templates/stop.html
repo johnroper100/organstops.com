@@ -204,8 +204,8 @@
                     {{reference.name}} [{{reference.number}}] -
                     <span class="font-weight-light">
                         {% for section in reference.sections %}
-                        {% if section.number != "" %}&sect;{{section.number}}
-                        {%endif %}{% if section.name != "" %}{{section.name}}{%endif %}{% if loop.index != reference.sections|length%},{%endif %}
+                        {% if section.number != "" %}&sect;{{section.number}}{%endif %}{% if section.name != "" %}
+                        {{section.name}}{%endif %}{% if loop.index != reference.sections|length%},{%endif %}
                         {% endfor %}
                     </span>
                 </p>
