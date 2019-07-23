@@ -249,6 +249,164 @@
             "link": "Holzprinzipal"
         }
     ],
+    "bibliography": [
+        {
+            "name": "Adlung",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "136",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "148",
+                    "name": "Frontispicium"
+                },
+                {
+                    "number": "149",
+                    "name": "Fundamentalis"
+                },
+                {
+                    "number": "167",
+                    "name": "Montre"
+                },
+                {
+                    "number": "177",
+                    "name": "Pr&auml;stant"
+                },
+                {
+                    "number": "184",
+                    "name": "Regula Primaria"
+                }
+            ]
+        },
+        {
+            "name": "Audsley",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Montre"
+                },
+                {
+                    "number": "",
+                    "name": "Open Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                },
+                {
+                    "number": "",
+                    "name": "Regula Primaria"
+                }
+            ]
+        },
+        {
+            "name": "Audsley",
+            "number": "2",
+            "sections": [
+                {
+                    "number": "I.XIII",
+                    "name": "Baxoncillo"
+                },
+                {
+                    "number": "I.XIII",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "I.XIII",
+                    "name": "Montre"
+                },
+                {
+                    "number": "I.XIII",
+                    "name": "Open Diapason"
+                },
+                {
+                    "number": "I.XIII",
+                    "name": "Principal"
+                },
+                {
+                    "number": "I.XIII",
+                    "name": "Regula Primaria"
+                },
+                {
+                    "number": "II.XXXVI",
+                    "name": "Principals"
+                }
+            ]
+        },
+        {
+            "name": "Bedos",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "1268-1270",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "name": "Bonavia-Hunt",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Diapason"
+                },
+                {
+                    "number": "",
+                    "name": "Principal"
+                }
+            ]
+        },
+        {
+            "name": "Douglass",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "72",
+                    "name": ""
+                },
+                {
+                    "number": "74-77",
+                    "name": ""
+                },
+                {
+                    "number": "83-85",
+                    "name": ""
+                },
+                {
+                    "number": "88-89",
+                    "name": ""
+                },
+                {
+                    "number": "91-92",
+                    "name": ""
+                },
+                {
+                    "number": "96",
+                    "name": ""
+                },
+                {
+                    "number": "101",
+                    "name": ""
+                },
+                {
+                    "number": "109",
+                    "name": ""
+                },
+                {
+                    "number": "113",
+                    "name": ""
+                }
+            ]
+        }
+    ],
     "examples": [],
     "examplesDescription": "Every pipe organ worthy of the name contains at least one. No examples are known of the names Devanture, Frontispicium, Fundamentalis, Jeu en Montre, Monster, Mostra, Parade, Tenori, Regula, Primaria Regula, or Regula Primaria.",
     "soundClips": [

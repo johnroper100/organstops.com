@@ -186,13 +186,36 @@
                     </div>
                 </div>
                 {% endfor %}
+                {% if loop.index != soundClips|length%}
                 <hr>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>
         {% endif %}
+
+        {% if bibliography|length > 0 %}
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h3>Bibliography:</h3>
+                {% for reference in bibliography %}
+                <p>
+                    {{reference.name}} [{{reference.number}}] -
+                    <span class="font-weight-light">
+                        {% for section in reference.sections %}
+                        {% if section.number != "" %}&sect;{{section.number}}
+                        {%endif %}{% if section.name != "" %}{{section.name}}{%endif %}{% if loop.index != reference.sections|length%},{%endif %}
+                        {% endfor %}
+                    </span>
+                </p>
+                {% endfor %}
+                <a href="../bibliography.html">View reference materials list</a>
+            </div>
+        </div>
+        {% endif %}
     </div>
-    <div class="pb-2" style="position: absolute; right: 0;bottom: 0;left: 0; text-align: center;">
+    <div class="pb-2" style="position: absolute; right: 0;bottom: -2rem;left: 0; text-align: center;">
         Original site compiled by Edward L. Stauff. For educational use only.
     </div>
 
