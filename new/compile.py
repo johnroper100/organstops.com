@@ -62,14 +62,28 @@ for subdir, dirs, files in os.walk("definitions"):
             for nameItem in data['variants']:
                 newName = copy.deepcopy(nameItem)
                 if newName['link'] != "":
-                    if newName not in names:
-                        names.append(newName)
+                    if newName['link'] != newName['name']:
+                        newNewName = copy.deepcopy(newName)
+                        newNewName['name'] = newNewName['name'] + \
+                            " ("+newNewName['link']+")"
+                        if newNewName not in names:
+                            names.append(newNewName)
+                    else:
+                        if newName not in names:
+                            names.append(newName)
 
             for nameItem in data['comparisons']:
                 newName = copy.deepcopy(nameItem)
                 if newName['link'] != "":
-                    if newName not in names:
-                        names.append(newName)
+                    if newName['link'] != newName['name']:
+                        newNewName = copy.deepcopy(newName)
+                        newNewName['name'] = newNewName['name'] + \
+                            " ("+newNewName['link']+")"
+                        if newNewName not in names:
+                            names.append(newNewName)
+                    else:
+                        if newName not in names:
+                            names.append(newName)
 
             nameURL = getNameURL(name)
             letter = getLetter(name)

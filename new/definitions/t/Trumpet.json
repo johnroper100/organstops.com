@@ -1,253 +1,222 @@
 {
     "names": [
         {
-            "name": "Prestant",
-            "origin": "Dutch",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Principaal",
-            "origin": "Dutch",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Principal",
-            "origin": "English",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Principale",
+            "name": "Tromba",
             "origin": "Italian",
-            "link": "",
+            "link": "Tromba",
             "primary": false
         },
         {
-            "name": "Prinzipal",
+            "name": "Trommet",
             "origin": "German",
             "link": "",
             "primary": false
         },
         {
-            "name": "Diapason",
-            "origin": "English",
+            "name": "Trompet",
+            "origin": "Dutch",
             "link": "",
             "primary": false
         },
         {
-            "name": "Open Diapason",
+            "name": "Trompeta",
+            "origin": "Spanish",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Trompete",
+            "origin": "German",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Trompette",
+            "origin": "French",
+            "link": "",
+            "primary": false
+        },
+        {
+            "name": "Trumpet",
             "origin": "English",
             "link": "",
             "primary": true
         },
         {
-            "name": "Montre",
-            "origin": "French",
+            "name": "French Trumpet",
+            "origin": "English",
             "link": "",
             "primary": false
         },
         {
-            "name": "Flautado",
-            "origin": "Spanish",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Flautado Principal",
-            "origin": "Spanish",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Devanture",
-            "origin": "French",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Dulceon",
-            "origin": "Czech",
-            "link": "Dulceon",
-            "primary": false
-        },
-        {
-            "name": "Frontispicium",
-            "origin": "Latin",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Fundamentalis",
-            "origin": "Latin?",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Jeu en Montre",
-            "origin": "French",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Monster",
-            "origin": "French",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Mostra",
-            "origin": "French",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Parade",
-            "origin": "French?",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Tenori",
-            "origin": "Italian",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Regula",
-            "origin": "Latin",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Primaria Regula",
-            "origin": "Latin",
-            "link": "",
-            "primary": false
-        },
-        {
-            "name": "Regula Primaria",
-            "origin": "Latin",
+            "name": "Tarantantara",
+            "origin": "German",
             "link": "",
             "primary": false
         }
     ],
     "images": [
         {
-            "file": "Diapason.gif",
+            "file": "Trumpet1.gif",
+            "subtitle": ""
+        },
+        {
+            "file": "Trumpet2.gif",
             "subtitle": ""
         }
     ],
-    "description": "The quintessential tone of the pipe organ.",
-    "usage": "",
-    "construction": "Open cylindrical metal, or open rectangular wood. The illustration is Audsley's.",
-    "comparisons": [
-        {
-            "name": "Flautada",
-            "link": "Flautada"
-        }
-    ],
+    "description": "A generic term for a fairly wide variety of reed stops. Usually found at 8' pitch, occasionally 16' in the pedal. On some (orchestral) instruments, the name may be given to what should more properly be called Orchestral Trumpet. Comes in a wide variety of dynamics and brightness. One builder's gentle Trumpet may be another builder's assertive Oboe.",
+    "construction": "Full-length resonators. The bass octave of a 16' stop may have half-length resonators. The illustrations are Audsley's.",
+    "usage": "In its common forms, the Trumpet is usually a versatile stop, usable either as a solo stop or in chorus with principals, mixtures, and/or other chorus reeds. If an organ has only one manual reed stop, it is often a Trumpet, and usually on the Swell.  Likewise, if a larger organ contains two different reed stops of the same type, it is likely to be a Trumpet.",
+    "comparisons": [],
     "variants": [
         {
-            "name": "Cello Diapason",
-            "link": "Cello Diapason"
+            "name": "Orchestral Trumpet",
+            "link": "Orchestral Trumpet"
         },
         {
-            "name": "Diapason Magna",
-            "link": "Diapason Magna"
+            "name": "Bombarde",
+            "link": "Bombarde"
         },
         {
-            "name": "Diapason Phononn",
-            "link": "Diapason Phonon"
+            "name": "Brass Trumpet",
+            "link": "Orchestral Trumpet"
         },
         {
-            "name": "Diapason Sonora",
-            "link": "Diapason Sonora"
+            "name": "Clarion",
+            "link": "Clarion"
         },
         {
-            "name": "Diaphonic Diapason",
-            "link": "Diaphone"
+            "name": "Contra Trumpet",
+            "link": "Contra Trumpet"
         },
         {
-            "name": "Diskant Prinzipal",
-            "link": "Diskant Prinzipal"
+            "name": "Cornopean",
+            "link": "Cornopean"
         },
         {
-            "name": "Double Diapason",
-            "link": "Contra Principal"
+            "name": "Double Trumpet",
+            "link": "Contra Trumpet"
         },
         {
-            "name": "Early English Diapason",
-            "link": "Early English Diapason"
+            "name": "Echo Trumpet",
+            "link": "Echo Trumpet"
         },
         {
-            "name": "English Diapason",
-            "link": "English Diapason"
+            "name": "Fan Trumpet",
+            "link": "Trompette En Chamade"
         },
         {
-            "name": "Fifteenth",
-            "link": "Fifteenth"
+            "name": "Fanfare Trumpet",
+            "link": "Fanfare Trumpet"
         },
         {
-            "name": "Groben Principal",
-            "link": "Groben Principal"
+            "name": "Festival Trumpet",
+            "link": "State Trumpet"
         },
         {
-            "name": "Italian Principal",
-            "link": "Italian Principal"
+            "name": "Field Trumpet",
+            "link": "Military Trumpet"
         },
         {
-            "name": "Magnaton",
-            "link": "Magnaton"
+            "name": "Gottfried Trumpet",
+            "link": "Orchestral Trumpet"
         },
         {
-            "name": "Major Principal",
-            "link": "Major Principal"
+            "name": "Harmonic Trumpet",
+            "link": "Harmonic Trumpet"
         },
         {
-            "name": "Octave",
-            "link": "Octave"
+            "name": "Horizontal Trumpet",
+            "link": "Trompette En Chamade"
         },
         {
-            "name": "Prinzipalbass",
-            "link": "Prinzipalbass"
+            "name": "Liturgical Trumpet",
+            "link": "Liturgical Trumpet"
         },
         {
-            "name": "Prinzipaldiskant",
-            "link": "Diskant Prinzipal"
+            "name": "Military Trumpet",
+            "link": "Military Trumpet"
         },
         {
-            "name": "Quint Diapason",
-            "link": "Quint Diapason"
+            "name": "Muted Trumpet",
+            "link": "Muted Trumpet"
         },
         {
-            "name": "Salicional Diapason",
-            "link": "Salicional Diapason"
+            "name": "Pontifical Trumpet",
+            "link": "State Trumpet"
         },
         {
-            "name": "Sch&ouml;nprinzipal",
-            "link": "Sch&ouml;nprinzipal"
+            "name": "Quint Trumpet",
+            "link": "Quint Trumpet"
         },
         {
-            "name": "Small Open Diapason",
-            "link": "Early English Diapason"
+            "name": "Silver Trumpet",
+            "link": "State Trumpet"
         },
         {
-            "name": "Solo Diapason",
-            "link": "Solo Diapason"
+            "name": "Solo Trumpet",
+            "link": "Solo Trumpet"
         },
         {
-            "name": "Solo Prinzipal-Fl&ouml;te",
-            "link": "Solo Prinzipal Fl&ouml;te"
+            "name": "Song Trumpet",
+            "link": "Song Trumpet"
         },
         {
-            "name": "Unterchormassbass",
-            "link": "Unterchormassbass"
+            "name": "State Trumpet",
+            "link": "State Trumpet"
         },
         {
-            "name": "Wood Diapason",
-            "link": "Holzprinzipal"
+            "name": "Tromba",
+            "link": "Tromba"
+        },
+        {
+            "name": "Trombone",
+            "link": "Trombone"
+        },
+        {
+            "name": "Trompeta de Batalla",
+            "link": "Trompeta de Batalla"
+        },
+        {
+            "name": "Trompeta de Caballa",
+            "link": "Trompeta de Caballa"
+        },
+        {
+            "name": "Trompetenbass",
+            "link": "Trompetenbass"
+        },
+        {
+            "name": "Trompetenbass Chormass",
+            "link": "Trompetenbass Chormass"
+        },
+        {
+            "name": "Trompetenregal",
+            "link": "Trompetenregal"
+        },
+        {
+            "name": "Trumpet Clarion",
+            "link": "Clarion"
+        },
+        {
+            "name": "Trumpet Quint",
+            "link": "Quint Trumpet"
+        },
+        {
+            "name": "Trumpet Royal",
+            "link": "Trumpet Royal"
+        },
+        {
+            "name": "Trumpet Sonora",
+            "link": "Trumpet Sonora"
+        },
+        {
+            "name": "Tuba",
+            "link": "Tuba"
+        },
+        {
+            "name": "Tuba Trumpet",
+            "link": "Tuba Trumpet"
         }
     ],
     "bibliography": [
@@ -256,28 +225,12 @@
             "number": "1",
             "sections": [
                 {
-                    "number": "136",
-                    "name": "Diapason"
+                    "number": "176",
+                    "name": "Posaune"
                 },
                 {
-                    "number": "148",
-                    "name": "Frontispicium"
-                },
-                {
-                    "number": "149",
-                    "name": "Fundamentalis"
-                },
-                {
-                    "number": "167",
-                    "name": "Montre"
-                },
-                {
-                    "number": "177",
-                    "name": "Pr&auml;stant"
-                },
-                {
-                    "number": "184",
-                    "name": "Regula Primaria"
+                    "number": "202",
+                    "name": "Tromba"
                 }
             ]
         },
@@ -287,23 +240,7 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
-                },
-                {
-                    "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Open Diapason"
-                },
-                {
-                    "number": "",
-                    "name": "Principal"
-                },
-                {
-                    "number": "",
-                    "name": "Regula Primaria"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -313,31 +250,11 @@
             "sections": [
                 {
                     "number": "I.XIII",
-                    "name": "Baxoncillo"
+                    "name": "Trumpet"
                 },
                 {
-                    "number": "I.XIII",
-                    "name": "Diapason"
-                },
-                {
-                    "number": "I.XIII",
-                    "name": "Montre"
-                },
-                {
-                    "number": "I.XIII",
-                    "name": "Open Diapason"
-                },
-                {
-                    "number": "I.XIII",
-                    "name": "Principal"
-                },
-                {
-                    "number": "I.XIII",
-                    "name": "Regula Primaria"
-                },
-                {
-                    "number": "II.XXXVI",
-                    "name": "Principals"
+                    "number": "II.XXXVIII",
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -346,7 +263,19 @@
             "number": "1",
             "sections": [
                 {
-                    "number": "1268-1270",
+                    "number": "188-193",
+                    "name": ""
+                },
+                {
+                    "number": "198",
+                    "name": ""
+                },
+                {
+                    "number": "267-278",
+                    "name": ""
+                },
+                {
+                    "number": "967",
                     "name": ""
                 }
             ]
@@ -357,11 +286,11 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
+                    "name": "Trompette"
                 },
                 {
                     "number": "",
-                    "name": "Principal"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -370,39 +299,27 @@
             "number": "1",
             "sections": [
                 {
-                    "number": "72",
+                    "number": "85",
                     "name": ""
                 },
                 {
-                    "number": "74-77",
+                    "number": "89-91",
                     "name": ""
                 },
                 {
-                    "number": "83-85",
+                    "number": "96-97",
                     "name": ""
                 },
                 {
-                    "number": "88-89",
+                    "number": "100-101",
                     "name": ""
                 },
                 {
-                    "number": "91-92",
+                    "number": "107-108",
                     "name": ""
                 },
                 {
-                    "number": "96",
-                    "name": ""
-                },
-                {
-                    "number": "101",
-                    "name": ""
-                },
-                {
-                    "number": "109",
-                    "name": ""
-                },
-                {
-                    "number": "113",
+                    "number": "111-113",
                     "name": ""
                 }
             ]
@@ -413,23 +330,11 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
+                    "name": "Clarin"
                 },
                 {
                     "number": "",
-                    "name": "Flautado"
-                },
-                {
-                    "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Principal"
-                },
-                {
-                    "number": "",
-                    "name": "Tenori"
+                    "name": "Trommet"
                 }
             ]
         },
@@ -438,19 +343,11 @@
             "number": "1",
             "sections": [
                 {
-                    "number": "570-571",
+                    "number": "641",
                     "name": ""
                 },
                 {
-                    "number": "573-575",
-                    "name": ""
-                },
-                {
-                    "number": "597",
-                    "name": ""
-                },
-                {
-                    "number": "815",
+                    "number": "820",
                     "name": ""
                 }
             ]
@@ -461,15 +358,11 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
+                    "name": "Trompette"
                 },
                 {
                     "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Principal"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -479,19 +372,7 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
-                },
-                {
-                    "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Octave"
-                },
-                {
-                    "number": "",
-                    "name": "Principal"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -501,15 +382,11 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
+                    "name": "Trompette"
                 },
                 {
                     "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Principal"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -518,16 +395,24 @@
             "number": "1",
             "sections": [
                 {
-                    "number": "24-26",
+                    "number": "54",
+                    "name": ""
+                },
+                {
+                    "number": "60",
                     "name": ""
                 },
                 {
                     "number": "XII",
-                    "name": "Diapason"
+                    "name": "French Trumpet"
                 },
                 {
                     "number": "XII",
-                    "name": "Principal"
+                    "name": "Trompette"
+                },
+                {
+                    "number": "XII",
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -537,33 +422,11 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Diapason"
+                    "name": "Trompette"
                 },
                 {
                     "number": "",
-                    "name": "Open Diapason"
-                }
-            ]
-        },
-        {
-            "name": "Sumner",
-            "number": "1",
-            "sections": [
-                {
-                    "number": "",
-                    "name": "Diapason"
-                },
-                {
-                    "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Prinzipal"
-                },
-                {
-                    "number": "",
-                    "name": "Regula"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -573,43 +436,11 @@
             "sections": [
                 {
                     "number": "",
-                    "name": "Bajoncillo"
+                    "name": "Tarantantara"
                 },
                 {
                     "number": "",
-                    "name": "Diapason"
-                },
-                {
-                    "number": "",
-                    "name": "Flautado"
-                },
-                {
-                    "number": "",
-                    "name": "Flautado Principal"
-                },
-                {
-                    "number": "",
-                    "name": "Frontispicium"
-                },
-                {
-                    "number": "",
-                    "name": "Fundamentalis"
-                },
-                {
-                    "number": "",
-                    "name": "Montre"
-                },
-                {
-                    "number": "",
-                    "name": "Primaria Regula"
-                },
-                {
-                    "number": "",
-                    "name": "Principal"
-                },
-                {
-                    "number": "",
-                    "name": "Regula"
+                    "name": "Trumpet"
                 }
             ]
         },
@@ -619,27 +450,7 @@
             "sections": [
                 {
                     "number": "Glossary",
-                    "name": "Diapason"
-                },
-                {
-                    "number": "Glossary",
-                    "name": "Flautado"
-                },
-                {
-                    "number": "Glossary",
-                    "name": "Montre"
-                },
-                {
-                    "number": "Glossary",
-                    "name": "Prinzipal"
-                },
-                {
-                    "number": "Glossary",
-                    "name": "Spitzfl&ouml;te"
-                },
-                {
-                    "number": "Glossary",
-                    "name": "Tenori"
+                    "name": "Trommet"
                 }
             ]
         }

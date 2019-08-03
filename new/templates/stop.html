@@ -81,7 +81,7 @@
         <hr>
         <h3>Description:</h3>
         <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 col-12">
                 {% if description != "" %}<p>{{description}}</p>{% endif %}
                 {% if comparisons|length > 0 %}
                 <p>
@@ -91,13 +91,21 @@
                     {% endfor %}
                 </p>
                 {% endif %}
+                {% if usage != "" %}
+                <h5>Usage:</h5>
+                <p>{{usage}}</p>
+                {% endif %}
+                {% if construction != "" %}
+                <h5>Construction:</h5>
+                <p>{{construction}}</p>
+                {% endif %}
             </div>
             {% if images|length > 0 %}
-            <div class="col-3">
+            <div class="col-md-3 col-12">
                 <div class="row">
                     {% for image in images %}
-                    <div class="col-4 text-center">
-                        <img class="img-thumbnail" style="height: auto; width: 75%; display: block; margin: 0 auto;"
+                    <div class="col-md-4 col-6 text-center">
+                        <img class="img-thumbnail" style="height: auto; width: 100%; display: block; margin: 0 auto;"
                             src="../images/{{letter}}/{{image.file}}">
                         {% if image.subtitle != "" %}
                         {{image.subtitle}}
@@ -107,16 +115,6 @@
                 </div>
             </div>
             {% endif %}
-        </div>
-        {% endif %}
-
-        {% if construction != "" %}
-        <hr>
-        <div class="row">
-            <div class="col-12">
-                <h3>Construction:</h3>
-                <p>{{construction}}</p>
-            </div>
         </div>
         {% endif %}
 
