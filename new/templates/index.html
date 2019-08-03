@@ -43,17 +43,22 @@
 
 <body>
     <div class="container">
-        <div class="row mt-5">
+        <div class="alert alert-primary mt-3" role="alert">
+            Welcome to the new Encyclopedia of Organ Stops website! Don't worry, you can still view the complete old site <a href="old/index.html">here</a>. We are busy converting the site to this new system one page at a time, but we need your help. See how you can help speed up that process <a href="#">here</a>. Thanks for using the encyclopedia!
+        </div>
+        <div class="row mt-3">
             <div class="col-12 text-center">
                 <h1 class="display-3">Encyclopedia Of Organ Stops</h1>
-                <h3 class="text-muted font-weight-light">the definitive guide to every drawknob and stoptab in the world</h3>
+                <h3 class="text-muted font-weight-light">the definitive guide to every drawknob and stoptab in the world
+                </h3>
             </div>
         </div>
         <div class="row mt-4">
             {% for row in names | batch(((names|length)/4)|round(method='ceil')) %}
             <div class="col-md-3 col-12">
                 {% for name in row %}
-                <a href="./{{getLetter(name.link)}}/{{getNameURL(name.link)}}.html" {% if name['exists'] == false %}class="text-muted"{%endif %}>{{name.name}}</a>
+                <a href="./{{getLetter(name.link)}}/{{getNameURL(name.link)}}.html"
+                    {% if name['exists'] == false %}class="text-muted" {%endif %}>{{name.name}}</a>
                 <br>
                 {% if loop.index < (row|length) and getLetter(row[loop.index-1].name) != getLetter(row[loop.index].name) %}
                 <br>
