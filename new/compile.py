@@ -95,13 +95,9 @@ for subdir, dirs, files in os.walk("definitions"):
             f.close()
 
 names = sorted(names, key=lambda k: k['name'])
-f = open(os.path.join("build", "index.html"), "w")
-f.write(indexTemplate.render(names=names,
-                             getNameURL=getNameURL, getLetter=getLetter))
-f.close()
 
 for name in names:
-    if not os.path.exists(os.path.join("build", getLetter(name['link']), getNameURL(name['link'])+".html")):
+    if not os.path.exists(os.path.join("definitions", getLetter(name['link']), getNameURL(name['link'])+".json")):
         if not os.path.exists(os.path.join("build", getLetter(name['link']))):
             os.makedirs(os.path.join("build", getLetter(name['link'])))
         f = open(os.path.join("build", getLetter(
@@ -109,3 +105,13 @@ for name in names:
         f.write(missingTemplate.render(
             name=name, getNameURL=getNameURL, getLetter=getLetter))
         f.close()
+        name['exists'] = False
+    else:
+        name['exists'] = True
+
+f = open(os.path.join("build", "index.html"), "w")
+f.write(indexTemplate.render(names=names,
+                             getNameURL=getNameURL, getLetter=getLetter))
+f.close()
+
+
