@@ -81,7 +81,7 @@
         <hr>
         <h3>Description:</h3>
         <div class="row">
-            <div class="col-12">
+            <div class="col-9">
                 {% if description != "" %}<p>{{description}}</p>{% endif %}
                 {% if comparisons|length > 0 %}
                 <p>
@@ -92,20 +92,21 @@
                 </p>
                 {% endif %}
             </div>
-        </div>
-        {% endif %}
-
-        {% if images|length > 0 %}
-        <div class="row">
-            {% for image in images %}
-            <div class="col-md-3">
-                <img class="img-thumbnail" style="height: 25rem; width: auto; display: block;"
-                    src="../images/{{letter}}/{{image.file}}">
-                {% if image.subtitle != "" %}
-                {{image.subtitle}}
-                {% endif %}
+            {% if images|length > 0 %}
+            <div class="col-3">
+                <div class="row">
+                    {% for image in images %}
+                    <div class="col-4 text-center">
+                        <img class="img-thumbnail" style="height: auto; width: 75%; display: block; margin: 0 auto;"
+                            src="../images/{{letter}}/{{image.file}}">
+                        {% if image.subtitle != "" %}
+                        {{image.subtitle}}
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-            {% endfor %}
+            {% endif %}
         </div>
         {% endif %}
 
