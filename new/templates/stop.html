@@ -61,6 +61,7 @@
         href="https://github.com/johnroper100/organstops.com/blob/master/new/definitions/{{getLetter(name)}}/{{getNameURL(name)}}.json"
         target="_blank">Edit Page</a>
     <div class="container">
+        <a href="../index.html" class="text-muted">&#8612; Back to index</a>
         <div class="row pt-3">
             {% for row in names | batch(((names|length)/3)|round(method='ceil')) %}
             <div class="col-md-4 col-12">
