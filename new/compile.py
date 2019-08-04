@@ -2,6 +2,7 @@ import copy
 import json
 import os
 import shutil
+from datetime import datetime
 
 from jinja2 import Template
 
@@ -91,7 +92,7 @@ for subdir, dirs, files in os.walk("definitions"):
                 os.makedirs(os.path.join("build", letter))
             f = open(os.path.join("build", letter, nameURL+".html"), "w")
             f.write(stopTemplate.render(data, name=name, letter=letter,
-                                        nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter))
+                                        nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter, date=datetime.utcnow()))
             f.close()
 
 names = sorted(names, key=lambda k: k['name'])
@@ -102,8 +103,8 @@ for name in names:
             os.makedirs(os.path.join("build", getLetter(name['link'])))
         f = open(os.path.join("build", getLetter(
             name['link']), getNameURL(name['link'])+".html"), "w")
-        f.write(missingTemplate.render(
-            name=name, getNameURL=getNameURL, getLetter=getLetter))
+        f.write(missingTemplate.render(name=name, getNameURL=getNameURL,
+                                       getLetter=getLetter, date=datetime.utcnow()))
         f.close()
         name['exists'] = False
     else:
@@ -111,7 +112,5 @@ for name in names:
 
 f = open(os.path.join("build", "index.html"), "w")
 f.write(indexTemplate.render(names=names,
-                             getNameURL=getNameURL, getLetter=getLetter))
+                             getNameURL=getNameURL, getLetter=getLetter, date=datetime.utcnow()))
 f.close()
-
-
