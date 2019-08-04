@@ -1,0 +1,109 @@
+{
+    "names": [
+        {
+            "name": "Aeolina",
+            "origin": "Unknown",
+            "link": "",
+            "primary": true
+        },
+        {
+            "name": "Aeoline",
+            "origin": "English",
+            "link": "Aeoline",
+            "primary": false
+        }
+    ],
+    "images": [],
+    "description": "According to Irwin, this name signifies a single-rank soft string Celeste. He says: \"A single rank of very soft String or Foundation pipes of 8', tuned slightly sharp or flat, and intended to be added to any other soft stop, such as the Aeoline, Dulciana, Dolcan, or Spitzfl&ouml;te\". This rank may be an Aeoline or Echo Dolce. Audsley and Locher define Aeolina as a synonym for Aeoline. he name may derive from the Latin Aeolus, the god of winds.",
+    "usage": "",
+    "construction": "",
+    "comparisons": [
+        {
+            "name": "Celeste",
+            "link": "Celeste"
+        }
+    ],
+    "variants": [
+        {
+            "name": "Aeoline",
+            "link": "Aeoline"
+        },
+        {
+            "name": "Aelodicon",
+            "link": "Aelodicon"
+        },
+        {
+            "name": "Clavaeolina",
+            "link": "Clavaeolina"
+        },
+        {
+            "name": "Clav&auml;oline",
+            "link": "Clav&auml;oline"
+        }
+    ],
+    "bibliography": [
+        {
+            "name": "Audsley",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aelodicon"
+                }
+            ]
+        },
+        {
+            "name": "Audsley",
+            "number": "2",
+            "sections": [
+                {
+                    "number": "I.XIII",
+                    "name": "Aeolodicon"
+                }
+            ]
+        },
+        {
+            "name": "Grove",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aeoline"
+                }
+            ]
+        },
+        {
+            "name": "Irwin",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Trumpet"
+                }
+            ]
+        },
+        {
+            "name": "Locher",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aeolina"
+                }
+            ]
+        },
+        {
+            "name": "Maclean",
+            "number": "1",
+            "sections": [
+                {
+                    "number": "",
+                    "name": "Aeoline"
+                }
+            ]
+        }
+    ],
+    "examples": [],
+    "examplesDescription": "",
+    "soundClips": []
+}
