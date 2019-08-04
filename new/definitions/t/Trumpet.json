@@ -462,25 +462,7 @@
             "divisionName": "Manual",
             "clips": [
                 {
-                    "name": "Montre 8', Grand Orgue",
-                    "organName": "St. Bernhard",
-                    "organLocation": "Mainz, Germany",
-                    "organBuilderName": "Cavaill&eacute;-Coll",
-                    "organBuiltYear": "1872-1892",
-                    "organLink": "CavColMainz",
-                    "files": [
-                        {
-                            "name": "Arpeggio",
-                            "file": "GO_Montre_arp.mp3"
-                        },
-                        {
-                            "name": "St. Anne",
-                            "file": "GO_Montre_stan.mp3"
-                        }
-                    ]
-                },
-                {
-                    "name": "Principal 8', Great",
+                    "name": "Trompete 8', Swell",
                     "organName": "First Baptist Church",
                     "organLocation": "Riverside, California, USA",
                     "organBuilderName": "Schantz",
@@ -489,16 +471,16 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "Gt_Principal8_arp.mp3"
+                            "file": "Sw_Trompete8_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "Gt_Principal8_stan.mp3"
+                            "file": "Sw_Trompete8_stan.mp3"
                         }
                     ]
                 },
                 {
-                    "name": "Prinzipal 8', Hauptwerk",
+                    "name": "Trompete 8', Hauptwerk",
                     "organName": "Grace Lutheran Church",
                     "organLocation": "Champaign, Illinois, USA",
                     "organBuilderName": "Casavant Fr&egrave;res",
@@ -507,30 +489,16 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "Hw_Prinzipal8_arp.mp3"
+                            "file": "Hw_Trompete8_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "Hw_Prinzipal8_stan.mp3"
+                            "file": "Hw_Trompete8_stan.mp3"
                         }
                     ]
                 },
                 {
-                    "name": "Diapason 16', Great",
-                    "organName": "Kellogg Auditorium",
-                    "organLocation": "Battle Creek, Michigan, USA",
-                    "organBuilderName": "Aeolian-Skinner",
-                    "organBuiltYear": "1933",
-                    "organLink": "KelloggAuditorium",
-                    "files": [
-                        {
-                            "name": "St. Anne (8va)",
-                            "file": "Gt_Diapason16_stan.mp3"
-                        }
-                    ]
-                },
-                {
-                    "name": "First Diapason 8', Great",
+                    "name": "Trumpet 8', Swell",
                     "organName": "Kellogg Auditorium",
                     "organLocation": "Battle Creek, Michigan, USA",
                     "organBuilderName": "Aeolian-Skinner",
@@ -539,54 +507,30 @@
                     "files": [
                         {
                             "name": "St. Anne",
-                            "file": "Gt_Diapason1_stan.mp3"
+                            "file": "Sw_Trumpet_stan.mp3"
                         }
                     ]
                 },
                 {
-                    "name": "Second Diapason 8', Great",
-                    "organName": "Kellogg Auditorium",
-                    "organLocation": "Battle Creek, Michigan, USA",
-                    "organBuilderName": "Aeolian-Skinner",
-                    "organBuiltYear": "1933",
-                    "organLink": "KelloggAuditorium",
+                    "name": "Trompette 8', Grand Orgue",
+                    "organName": "Eglise protestante",
+                    "organLocation": "Romanswiller, France",
+                    "organBuilderName": "Stiehr-Mockers",
+                    "organBuiltYear": "1842",
+                    "organLink": "Romanswiller",
                     "files": [
                         {
-                            "name": "St. Anne",
-                            "file": "Gt_Diapason2_stan.mp3"
-                        }
-                    ]
-                },
-                {
-                    "name": "Third Diapason 8', Great",
-                    "organName": "Kellogg Auditorium",
-                    "organLocation": "Battle Creek, Michigan, USA",
-                    "organBuilderName": "Aeolian-Skinner",
-                    "organBuiltYear": "1933",
-                    "organLink": "KelloggAuditorium",
-                    "files": [
+                            "name": "Arpeggio",
+                            "file": "GO_Trompette_arp.mp3"
+                        },
                         {
                             "name": "St. Anne",
-                            "file": "Gt_Diapason3_stan.mp3"
+                            "file": "GO_Trompette_stan.mp3"
                         }
                     ]
                 },
                 {
-                    "name": "Diapason 8', Swell",
-                    "organName": "Kellogg Auditorium",
-                    "organLocation": "Battle Creek, Michigan, USA",
-                    "organBuilderName": "Aeolian-Skinner",
-                    "organBuiltYear": "1933",
-                    "organLink": "KelloggAuditorium",
-                    "files": [
-                        {
-                            "name": "St. Anne",
-                            "file": "Sw_Diapason_stan.mp3"
-                        }
-                    ]
-                },
-                {
-                    "name": "Open Diapason Large 8', Great",
+                    "name": "Trumpet 8', Swell",
                     "organName": "St. Anne's Church",
                     "organLocation": "Moseley, Birmingham, England",
                     "organBuilderName": "Brindley & Foster",
@@ -595,16 +539,16 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "Gt_OpenDiapLarge8_arp.mp3"
+                            "file": "Sw_Trumpet8_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "Gt_OpenDiapLarge8_stan.mp3"
+                            "file": "Sw_Trumpet8_stan.mp3"
                         }
                     ]
                 },
                 {
-                    "name": "Open Diapason Small 8', Great",
+                    "name": "Trumpet 8', Great",
                     "organName": "St. Anne's Church",
                     "organLocation": "Moseley, Birmingham, England",
                     "organBuilderName": "Brindley & Foster",
@@ -613,11 +557,11 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "Gt_OpenDiapSmall8_arp.mp3"
+                            "file": "Gt_Trumpet8_arp.mp3"
                         },
                         {
                             "name": "St. Anne",
-                            "file": "Gt_OpenDiapSmall8_stan.mp3"
+                            "file": "Gt_Trumpet8_stan.mp3"
                         }
                     ]
                 }
@@ -627,7 +571,7 @@
             "divisionName": "Pedal",
             "clips": [
                 {
-                    "name": "Principal 16', Pedal",
+                    "name": "Trompete 8', Pedal",
                     "organName": "First Baptist Church",
                     "organLocation": "Riverside, California, USA",
                     "organBuilderName": "Schantz",
@@ -636,35 +580,7 @@
                     "files": [
                         {
                             "name": "Arpeggio",
-                            "file": "Ped_Principal16_arp.mp3"
-                        }
-                    ]
-                },
-                {
-                    "name": "Diapason 16', Pedal",
-                    "organName": "Kellogg Auditorium",
-                    "organLocation": "Battle Creek, Michigan, USA",
-                    "organBuilderName": "Aeolian-Skinner",
-                    "organBuiltYear": "1933",
-                    "organLink": "KelloggAuditorium",
-                    "files": [
-                        {
-                            "name": "Arpeggio",
-                            "file": "Ped_Diapason_arp.mp3"
-                        }
-                    ]
-                },
-                {
-                    "name": "Open Diapason 16', Pedal",
-                    "organName": "St. Anne's Church",
-                    "organLocation": "Moseley, Birmingham, England",
-                    "organBuilderName": "Brindley & Foster",
-                    "organBuiltYear": "1907",
-                    "organLink": "StAnnesMoseley",
-                    "files": [
-                        {
-                            "name": "Arpeggio",
-                            "file": "Ped_OpenDiap16_arp.mp3"
+                            "file": "Ped_Trompete8_arp.mp3"
                         }
                     ]
                 }
