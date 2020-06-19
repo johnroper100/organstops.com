@@ -148,7 +148,11 @@
             {% for row in examples | batch(((examples|length)/4)|round(method='ceil')) %}
             <div class="col-md-3 col-12">
                 {% for example in row %}
+                {% if example.link != "" %} 
                 <a href="../{{getLetter(example.link)}}/{{getNameURL(example.link)}}.html">{{example.name}}</a>
+                {% else %}
+                {{example.name}}
+                {% endif %}
                 {% endfor %}
             </div>
             {% endfor %}
@@ -166,7 +170,7 @@
                 <div class="mb-3">
                     {{clip.name}}
                     <br>
-                    {{clip.organName}}, {{clip.organLocation}}
+                    {{clip.organName}}
                     <br>
                     {{clip.organBuilderName}}, {{clip.organBuiltYear}}
                     <div class="row">
