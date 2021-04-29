@@ -57,7 +57,8 @@
                     <div class="tab-pane fade {% if loop.index == 1 %}show active{% endif %}" id="tab-{{letter}}"
                         role="tabpanel" aria-labelledby="{{letter}}-tab">
                         <div class="row">
-                            {% for row in getNames(letter) | batch(((getNames(letter)|length)/4)|round(method='ceil')) %}
+                            {% for row in getNames(letter) | batch(((getNames(letter)|length)/4)|round(method='ceil'))
+                            %}
                             <div class="col-12 col-md-3">
                                 {% for name in row %}
                                 <a href="./{{letter}}/{{getNameURL(name.link)}}.html"
@@ -69,6 +70,12 @@
                     </div>
                     {% endfor %}
                 </div>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-12 col-md-6 text-center">
+                <div class="mb-3">This page was last last built on {{date.strftime('%B %d, %Y')}}</div>
+                Original site compiled by Edward L. Stauff. For educational use only.
             </div>
         </div>
     </div>
