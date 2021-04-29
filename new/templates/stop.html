@@ -67,8 +67,8 @@
             <div class="col-md-4 col-12">
                 {% for name in row %}
                 <h4>
-                    {% if name.link != "" %}<a
-                        href="../{{getLetter(name.link)}}/{{getNameURL(name.link)}}.html">{% endif %}
+                    {% if name.link != "" %}<a href="../{{getLetter(name.link)}}/{{getNameURL(name.link)}}.html">{%
+                        endif %}
                         {{name.name}}
                         {% if name.link != "" %}</a>{% endif %}
                     <small class="text-muted">{{name.origin}} {% if name.primary %}(Primary){% endif %}</small>
@@ -148,7 +148,7 @@
             {% for row in examples | batch(((examples|length)/4)|round(method='ceil')) %}
             <div class="col-md-3 col-12">
                 {% for example in row %}
-                {% if example.link != "" %} 
+                {% if example.link != "" %}
                 <a href="../{{getLetter(example.link)}}/{{getNameURL(example.link)}}.html">{{example.name}}</a>
                 {% else %}
                 {{example.name}}

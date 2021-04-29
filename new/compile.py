@@ -152,5 +152,6 @@ for name in names:
         name['exists'] = True
 
 f = open(os.path.join("build", "index.html"), "w")
-f.write(indexTemplate.render(getNameURL=getNameURL, getNames=getNames, letters=letters, date=datetime.utcnow()))
+f.write(indexTemplate.render(getNameURL=getNameURL,
+                             getNames=getNames, letters=letters, date=datetime.utcnow()))
 f.close()
