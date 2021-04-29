@@ -6,6 +6,9 @@ from datetime import datetime
 
 from jinja2 import Template
 
+letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
+           "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
 
 def getLetter(name):
     return name[0].lower()
@@ -35,6 +38,15 @@ shutil.copytree("images", os.path.join("build", "images"))
 shutil.copytree("audio", os.path.join("build", "audio"))
 
 names = []
+
+
+def getNames(letter):
+    letterNames = []
+    for name in names:
+        if getLetter(name["name"]) == letter:
+            letterNames.append(name)
+    return letterNames
+
 
 for subdir, dirs, files in os.walk("definitions"):
     for file in files:
@@ -111,6 +123,5 @@ for name in names:
         name['exists'] = True
 
 f = open(os.path.join("build", "index.html"), "w")
-f.write(indexTemplate.render(names=names,
-                             getNameURL=getNameURL, getLetter=getLetter, date=datetime.utcnow()))
+f.write(indexTemplate.render(getNameURL=getNameURL, getNames=getNames, letters=letters, date=datetime.utcnow()))
 f.close()
