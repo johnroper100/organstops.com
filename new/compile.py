@@ -1,5 +1,6 @@
 import copy
 import json
+import logging
 import os
 import shutil
 from datetime import datetime
@@ -10,12 +11,18 @@ letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
            "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
 
+LOGGER = logging.getLogger(__name__)
+
+
 def getLetter(name):
     return name[0].lower()
 
 
 def getNameURL(name):
     return name.replace(" ", "_")
+
+
+logging.basicConfig(level=logging.DEBUG)
 
 
 stopTemplateFile = open(os.path.join("templates", "stop.html"), 'r')
@@ -50,10 +57,29 @@ def getNames(letter):
 
 for subdir, dirs, files in os.walk("definitions"):
     for file in files:
+        LOGGER.debug(f"compiling data from {file}")
         with open(os.path.join(subdir, file)) as definition:
-            data = json.load(definition)
-            name = next(item for item in data['names'] if item['primary'] == True)[
-                'name']
+            try:
+                data = json.load(definition)
+            except json.decoder.JSONDecodeError:
+                LOGGER.error(f"could not parse {file}")
+                continue
+
+            if 'names' not in data:
+                continue
+
+            data_names = [item['name'].strip() for item in data['names']
+                          if item['primary']]
+            if not data_names:
+                LOGGER.warning(f"{file} did not have a primary name")
+                name = data['names'][0]['name']
+
+            elif len(data_names) > 1:
+                LOGGER.warning("f{file} had multiple primary names")
+                name = data_names[0]
+
+            else:
+                name = data_names[0]
 
             for nameItem in data['names']:
                 newName = copy.deepcopy(nameItem)
@@ -104,8 +130,11 @@ for subdir, dirs, files in os.walk("definitions"):
                 os.makedirs(os.path.join("build", letter))
             f = open(os.path.join("build", letter, nameURL+".html"), "w")
             f.write(stopTemplate.render(data, name=name, letter=letter,
-                                        nameURL=nameURL, getNameURL=getNameURL, getLetter=getLetter, date=datetime.utcnow()))
+                                        nameURL=nameURL, getNameURL=getNameURL,
+                                        getLetter=getLetter,
+                                        date=datetime.utcnow()))
             f.close()
+
 
 names = sorted(names, key=lambda k: k['name'])
 
@@ -123,5 +152,6 @@ for name in names:
         name['exists'] = True
 
 f = open(os.path.join("build", "index.html"), "w")
-f.write(indexTemplate.render(getNameURL=getNameURL, getNames=getNames, letters=letters, date=datetime.utcnow()))
+f.write(indexTemplate.render(getNameURL=getNameURL,
+                             getNames=getNames, letters=letters, date=datetime.utcnow()))
 f.close()
